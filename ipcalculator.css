@@ -1,0 +1,81 @@
+
+#ipcalc_main_container {
+	font-family: 'Courier New';
+	font-size: 14px;
+}
+
+#ipcalc_main_container #ipcalc_fields_container input{
+    padding:0 7px;
+    width:80px;
+    height:30px;
+    font-size:12px;
+    display:block;
+    color:#4e4a5c;
+    border:1px solid #6fafa1;
+}
+
+#ipcalc_main_container #ipcalc_fields_container input:focus{ 
+	-webkit-box-shadow:inset  0px 0px 2px #96b3b7; 
+	-moz-box-shadow:inset  0px 0px 2px #96b3b7; 
+	box-shadow:inset  0px 0px 2px #96b3b7; 
+}
+
+#ipcalc_main_container #ipcalc_fields_container input.ipcalc_submit{
+    color:#fff;
+    background-color: #ff6002;
+    border:0px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+#ipcalc_main_container table td.label{
+	font-weight: bold;
+	width: 100px;
+}
+
+#ipcalc_main_container table td.decimal{
+	width: 200px;
+}
+
+#ipcalc_main_container table td.binary{
+	color: #969696;
+}
+
+#ipcalc_main_container table td.bunt{
+	color: #0066FF;
+}
+
+#ipcalc_main_container table td.bunt_2	{
+	color: #ff6002;
+}
+
+#ipcalc_main_container table td.bunt_3	{
+	color: #2f913c;
+}
+
+#ipcalc_main_container span.bunt_3	{
+	color: #2f913c;
+}
+
+#ipcalc_main_container span.bold	{
+	font-weight: bold;
+}
+
+#ipcalc_main_container div#ipcalc_networks {
+	margin-top: 15px;
+}
+
+#ipcalc_main_container p.title {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff6002;
+	margin-bottom: 5px;
+}
+
+#ipcalc_main_container table.subnet_info {
+	margin: 5px 0px;
+}
+
+#ipcalc_main_container #ipcalc_errorbox p{
+	color: #c86165;
+}
